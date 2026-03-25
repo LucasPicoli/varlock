@@ -70,8 +70,8 @@
       },
     },
     "packages/integrations/cloudflare": {
-      "name": "@varlock/cloudflare",
-      "version": "0.0.1",
+      "name": "@varlock/cloudflare-integration",
+      "version": "0.0.0",
       "bin": {
         "varlock-wrangler": "./bin/varlock-wrangler.js",
       },
@@ -1186,7 +1186,7 @@
 
     "@varlock/ci-env-info": ["@varlock/ci-env-info@workspace:packages/ci-env-info"],
 
-    "@varlock/cloudflare": ["@varlock/cloudflare@workspace:packages/integrations/cloudflare"],
+    "@varlock/cloudflare-integration": ["@varlock/cloudflare-integration@workspace:packages/integrations/cloudflare"],
 
     "@varlock/google-secret-manager-plugin": ["@varlock/google-secret-manager-plugin@workspace:packages/plugins/google-secret-manager"],
 
